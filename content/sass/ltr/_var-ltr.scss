@@ -1,0 +1,16 @@
+$flex-dir:row;
+$start:left;
+$end:right;
+.en{
+    display: block !important;
+}
+.ar{
+    display: none !important;
+}
+.btn-en{
+display: inline;
+}
+.btn-ar{
+    display: none !important;
+}
+$mainfont:'Poppins', sans-serif;

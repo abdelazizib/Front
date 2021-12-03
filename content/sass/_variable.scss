@@ -1,0 +1,55 @@
+$maincolor:#eb592d;
+$primarycolor:#102955;
+$mg-btm: 35px;
+$mg-btm-double: 10rem;
+%btn-main{
+    background: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    color: $maincolor;
+    padding: 17px 50px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .3s;
+    &:hover{
+        background: $maincolor;
+        color: #fff;
+    }
+}
+%btn-primary{
+    font-size: 18px;
+font-weight: 500;
+color: #fff;
+padding: 17px 55px;
+font-family: $mainfont;
+display: inline-block;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+background: -moz-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+background: -webkit-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+background: -ms-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+outline: none;
+transition: .2s all;
+border: none;
+&:hover{   
+    background: -moz-linear-gradient(linear-gradient(0deg, #f14437 0%, #f14437 99%));
+    background: -webkit-linear-gradient(linear-gradient(0deg, #f14437 0%, #f14437 99%));
+    background: ms-linear-gradient(0deg, #f14437 0%, #f14437 99%);
+}
+}
+
+.ar{
+    display: none;
+}
+.en{
+    display: none;
+}
+.btn-ar{
+display: none;
+}
+.btn-ar{
+display: none;
+}

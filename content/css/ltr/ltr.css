@@ -1,0 +1,901 @@
+/* line 4, ../content lenovo/pet project/content/sass/ltr/_var-ltr.scss */
+.en {
+  display: block !important;
+}
+
+/* line 7, ../content lenovo/pet project/content/sass/ltr/_var-ltr.scss */
+.ar {
+  display: none !important;
+}
+
+/* line 10, ../content lenovo/pet project/content/sass/ltr/_var-ltr.scss */
+.btn-en {
+  display: inline;
+}
+
+/* line 13, ../content lenovo/pet project/content/sass/ltr/_var-ltr.scss */
+.btn-ar {
+  display: none !important;
+}
+
+/* line 5, ../content lenovo/pet project/content/sass/_variable.scss */
+.head__description a, .contact__button button {
+  background: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  color: #eb592d;
+  padding: 17px 50px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: .3s;
+}
+
+/* line 16, ../content lenovo/pet project/content/sass/_variable.scss */
+.head__description a:hover, .contact__button button:hover {
+  background: #eb592d;
+  color: #fff;
+}
+
+/* line 21, ../content lenovo/pet project/content/sass/_variable.scss */
+.care__content button, .adopt__description button {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  padding: 17px 55px;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background: -moz-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+  background: -webkit-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+  background: -ms-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+  outline: none;
+  transition: .2s all;
+  border: none;
+}
+
+/* line 37, ../content lenovo/pet project/content/sass/_variable.scss */
+.care__content button:hover, .adopt__description button:hover {
+  background: -moz-linear-gradient(linear-gradient(0deg, #f14437 0%, #f14437 99%));
+  background: -webkit-linear-gradient(linear-gradient(0deg, #f14437 0%, #f14437 99%));
+  background: ms-linear-gradient(0deg, #f14437 0%, #f14437 99%);
+}
+
+/* line 44, ../content lenovo/pet project/content/sass/_variable.scss */
+.ar {
+  display: none;
+}
+
+/* line 47, ../content lenovo/pet project/content/sass/_variable.scss */
+.en {
+  display: none;
+}
+
+/* line 50, ../content lenovo/pet project/content/sass/_variable.scss */
+.btn-ar {
+  display: none;
+}
+
+/* line 53, ../content lenovo/pet project/content/sass/_variable.scss */
+.btn-ar {
+  display: none;
+}
+
+@keyframes sildetoup {
+  from {
+    top: 120%;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+@keyframes animatejs {
+  from {
+    top: -97px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+/* line 16, ../content lenovo/pet project/content/sass/_main.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 19, ../content lenovo/pet project/content/sass/_main.scss */
+.row {
+  flex-direction: row;
+}
+
+/* line 22, ../content lenovo/pet project/content/sass/_main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 27, ../content lenovo/pet project/content/sass/_main.scss */
+.nav-1 {
+  background: #1c1818;
+}
+
+/* line 31, ../content lenovo/pet project/content/sass/_main.scss */
+.nav1 ul {
+  display: flex;
+  margin: 0 !important;
+  flex-direction: row;
+}
+
+/* line 36, ../content lenovo/pet project/content/sass/_main.scss */
+.nav1 li {
+  list-style-type: none;
+  color: white;
+  margin: 0 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 43, ../content lenovo/pet project/content/sass/_main.scss */
+.nav {
+  width: 80%;
+  margin: auto;
+  padding: 1.28rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 54, ../content lenovo/pet project/content/sass/_main.scss */
+.nav1 ul li:nth-child(2) {
+  margin-left: 50px !important;
+}
+
+/* line 60, ../content lenovo/pet project/content/sass/_main.scss */
+.ic {
+  margin-left: auto;
+}
+
+/* line 63, ../content lenovo/pet project/content/sass/_main.scss */
+.ic-i {
+  font-size: 18px !important;
+  color: #C7C7C7;
+  margin-left: 32px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+/* line 69, ../content lenovo/pet project/content/sass/_main.scss */
+.ic-i:hover {
+  color: #eb592d;
+}
+
+/* line 78, ../content lenovo/pet project/content/sass/_main.scss */
+.nav2 ul li:hover {
+  color: #eb592d !important;
+}
+
+/* line 85, ../content lenovo/pet project/content/sass/_main.scss */
+.nav2 ul {
+  margin: 0 !important;
+  margin-left: auto !important;
+  flex-direction: row;
+}
+
+/* line 89, ../content lenovo/pet project/content/sass/_main.scss */
+.nav2 li {
+  list-style-type: none;
+  color: #102955;
+  margin: 0 !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 36px 16px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+/* line 99, ../content lenovo/pet project/content/sass/_main.scss */
+.nav2 li:last-child {
+  padding-end: 0;
+}
+
+/* line 104, ../content lenovo/pet project/content/sass/_main.scss */
+.nav22 {
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  position: relative;
+}
+
+/* line 110, ../content lenovo/pet project/content/sass/_main.scss */
+.f-dwn {
+  margin-left: 5px;
+}
+
+/* line 113, ../content lenovo/pet project/content/sass/_main.scss */
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 118, ../content lenovo/pet project/content/sass/_main.scss */
+.dropdown ul {
+  transition: .2s;
+  position: absolute;
+  top: 120%;
+  background: white;
+  width: 10.5rem !important;
+  padding: 14px 5px;
+  -webkit-border-radius: 12px 0;
+  -moz-border-radius: 12px 0;
+  border-radius: 12px 0;
+  display: none !important;
+  z-index: 999;
+  transition: .3s;
+  animation: sildetoup 0.2s both ease-in;
+}
+
+/* line 131, ../content lenovo/pet project/content/sass/_main.scss */
+.dropdown ul li {
+  padding: 5px 6px;
+  color: black;
+}
+
+/* line 136, ../content lenovo/pet project/content/sass/_main.scss */
+.dropdown:hover .dblock {
+  display: block !important;
+}
+
+/* line 143, ../content lenovo/pet project/content/sass/_main.scss */
+.head {
+  background: url(../../images/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+/* line 150, ../content lenovo/pet project/content/sass/_main.scss */
+.head__description__para__last {
+  margin-right: auto !important;
+  margin-left: auto;
+  text-align: center !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 32px;
+  margin-bottom: 50px;
+  margin-top: 12px;
+}
+
+/* line 161, ../content lenovo/pet project/content/sass/_main.scss */
+.head__description {
+  text-align: center;
+}
+
+/* line 163, ../content lenovo/pet project/content/sass/_main.scss */
+.head__description .head__description__para__first {
+  color: white;
+  margin-bottom: 35px;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 75px;
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+/* line 172, ../content lenovo/pet project/content/sass/_main.scss */
+.head__description .head__description__para__first span {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 184, ../content lenovo/pet project/content/sass/_main.scss */
+.head_dog img {
+  max-width: 100%;
+}
+
+/* line 188, ../content lenovo/pet project/content/sass/_main.scss */
+header {
+  margin-bottom: 10rem;
+}
+
+/* line 191, ../content lenovo/pet project/content/sass/_main.scss */
+.service__text {
+  text-align: center;
+}
+
+/* line 194, ../content lenovo/pet project/content/sass/_main.scss */
+.service-text-first {
+  font-size: 50px;
+  font-weight: bold;
+  color: #191d34;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 200, ../content lenovo/pet project/content/sass/_main.scss */
+.service-text-last {
+  font-size: 16px;
+  color: #909092;
+  text-align: center;
+  font-weight: 400;
+  padding: 6px;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+/* line 209, ../content lenovo/pet project/content/sass/_main.scss */
+.service__text {
+  margin: auto;
+}
+
+/* line 212, ../content lenovo/pet project/content/sass/_main.scss */
+.head__first {
+  position: relative;
+  z-index: 88;
+}
+
+/* line 216, ../content lenovo/pet project/content/sass/_main.scss */
+.servie__img {
+  background-image: url(../../images/section__service/service_icon_bg_1.png);
+  background-repeat: no-repeat;
+  padding: 35px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  margin-bottom: 35px;
+}
+
+/* line 227, ../content lenovo/pet project/content/sass/_main.scss */
+.service__content {
+  padding: 70px 25px 65px 25px;
+  border: 1px solid #ffc5c2;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-align: center;
+}
+
+/* line 234, ../content lenovo/pet project/content/sass/_main.scss */
+.service__content h1 {
+  margin-bottom: 35px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* line 239, ../content lenovo/pet project/content/sass/_main.scss */
+.service__content p {
+  color: #909092;
+  font-size: 16px;
+}
+
+/* line 243, ../content lenovo/pet project/content/sass/_main.scss */
+.service__content:hover {
+  border-color: transparent;
+  -webkit-box-shadow: 0 0 20px #cccc;
+  -moz-box-shadow: 0 0 20px #cccc;
+  box-shadow: 0 0 20px #cccc;
+}
+
+/* line 248, ../content lenovo/pet project/content/sass/_main.scss */
+.service {
+  margin-bottom: 10rem;
+}
+
+/* line 252, ../content lenovo/pet project/content/sass/_main.scss */
+.care__cat img {
+  max-width: 100%;
+}
+
+/* line 259, ../content lenovo/pet project/content/sass/_main.scss */
+.care__content p span {
+  font-weight: bold;
+}
+
+/* line 264, ../content lenovo/pet project/content/sass/_main.scss */
+.care__content .care__paragraph__second {
+  color: #66666f;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 54px;
+  margin-top: 30px;
+}
+
+/* line 271, ../content lenovo/pet project/content/sass/_main.scss */
+.care__content .care__paragraph__first {
+  font-size: 50px;
+  line-height: 60px;
+  color: #191d34;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+/* line 282, ../content lenovo/pet project/content/sass/_main.scss */
+.addclassHERE {
+  position: fixed;
+  top: 0;
+  z-index: 9999999999999999999999999999999999999999999;
+  width: 100%;
+  background: #ffffffeb;
+  box-shadow: 0 0 25px #00000033;
+  top: -97px;
+  animation: animatejs .5s both;
+}
+
+/* line 293, ../content lenovo/pet project/content/sass/_main.scss */
+.care {
+  margin-bottom: 10rem;
+}
+
+/* line 298, ../content lenovo/pet project/content/sass/_main.scss */
+.adopt__description p:first-child {
+  font-size: 50px;
+  line-height: 60px;
+  color: #191d34;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+/* line 305, ../content lenovo/pet project/content/sass/_main.scss */
+.adopt__description p span {
+  font-weight: bold;
+}
+
+/* line 308, ../content lenovo/pet project/content/sass/_main.scss */
+.adopt__description p:nth-child(2) {
+  color: #66666f;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 54px;
+  margin-top: 30px;
+}
+
+/* line 320, ../content lenovo/pet project/content/sass/_main.scss */
+.adopt__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 325, ../content lenovo/pet project/content/sass/_main.scss */
+.adopt__single {
+  margin-bottom: 40px;
+  -webkit-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  -moz-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  border-radius: 14px;
+  background: #fff;
+  padding: 40px 40px 33px 40px;
+  text-align: center;
+}
+
+/* line 332, ../content lenovo/pet project/content/sass/_main.scss */
+.adopt__single h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #383737;
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-top: 22px;
+  line-height: 1;
+}
+
+/* line 342, ../content lenovo/pet project/content/sass/_main.scss */
+.adopt__single h3 {
+  font-size: 20px;
+  color: #808080;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  margin-bottom: 0;
+}
+
+/* line 351, ../content lenovo/pet project/content/sass/_main.scss */
+.adopt {
+  margin-bottom: 10rem;
+}
+
+/* line 354, ../content lenovo/pet project/content/sass/_main.scss */
+.testimonial__single {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0 35px rgba(0, 0, 2, 0.08);
+  -moz-box-shadow: 0px 0 35px rgba(0, 0, 2, 0.08);
+  box-shadow: 0px 0 35px rgba(0, 0, 2, 0.08);
+  padding: 60px 80px 85px 80px;
+  margin: 24px auto;
+  justify-content: center;
+  align-items: center;
+  width: 920px;
+}
+
+/* line 364, ../content lenovo/pet project/content/sass/_main.scss */
+.testimonial__img img {
+  margin-right: 25px;
+}
+
+/* line 369, ../content lenovo/pet project/content/sass/_main.scss */
+.testimonial__description h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #383737;
+  margin-bottom: 0;
+}
+
+/* line 375, ../content lenovo/pet project/content/sass/_main.scss */
+.testimonial__description span {
+  display: block;
+  color: #979797;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 16px;
+  line-height: 1;
+  margin-top: 3px;
+}
+
+/* line 385, ../content lenovo/pet project/content/sass/_main.scss */
+.testimonial__description p {
+  font-size: 18px;
+  color: #66666f;
+  margin-bottom: 0;
+  line-height: 35px;
+}
+
+/* line 392, ../content lenovo/pet project/content/sass/_main.scss */
+.testimonial {
+  margin-bottom: 10rem;
+}
+
+/* line 395, ../content lenovo/pet project/content/sass/_main.scss */
+.ourteam {
+  margin-bottom: 10rem;
+}
+
+/* line 398, ../content lenovo/pet project/content/sass/_main.scss */
+.ourteam__description {
+  text-align: center;
+  margin-bottom: 95px;
+}
+
+/* line 401, ../content lenovo/pet project/content/sass/_main.scss */
+.ourteam__description h3 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #191d34;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 408, ../content lenovo/pet project/content/sass/_main.scss */
+.ourteam__description p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #909092;
+  font-weight: 400;
+}
+
+/* line 415, ../content lenovo/pet project/content/sass/_main.scss */
+.team {
+  position: relative;
+}
+
+/* line 418, ../content lenovo/pet project/content/sass/_main.scss */
+.team__person_detail {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 16px 40px 11px 40px;
+  background-color: white;
+  box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 430, ../content lenovo/pet project/content/sass/_main.scss */
+.team__person_detail span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+/* line 437, ../content lenovo/pet project/content/sass/_main.scss */
+.team__person_detail p {
+  font-size: 14px;
+  color: #7a7b7c;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+/* line 444, ../content lenovo/pet project/content/sass/_main.scss */
+.team:hover .team__person_detail {
+  cursor: pointer;
+  transform: translate(-50%, 40%);
+}
+
+/* line 448, ../content lenovo/pet project/content/sass/_main.scss */
+.contact {
+  background: url(../../images/contact/contact_bg.webp);
+  padding-top: 170px;
+  padding-bottom: 160px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* line 456, ../content lenovo/pet project/content/sass/_main.scss */
+.contact__content h3 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 463, ../content lenovo/pet project/content/sass/_main.scss */
+.contact__content p {
+  font-size: 25px;
+  color: #fff;
+  line-height: 40px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* line 476, ../content lenovo/pet project/content/sass/_main.scss */
+.contact__button p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 484, ../content lenovo/pet project/content/sass/_main.scss */
+.contact__button p a {
+  font-weight: 600;
+  color: #fff;
+  margin-left: 10px;
+}
+
+/* line 492, ../content lenovo/pet project/content/sass/_main.scss */
+footer {
+  background-repeat: no-repeat;
+  background: #f8f8f8;
+}
+
+/* line 496, ../content lenovo/pet project/content/sass/_main.scss */
+.footer__content {
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+
+/* line 501, ../content lenovo/pet project/content/sass/_main.scss */
+.footer__section h1 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #2e2e2e;
+  margin-bottom: 36px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 509, ../content lenovo/pet project/content/sass/_main.scss */
+.footer__section ul li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  font-family: "Poppins", sans-serif;
+  color: #7a7a7a;
+  list-style-type: none;
+}
+
+/* line 516, ../content lenovo/pet project/content/sass/_main.scss */
+.footer__section ul li a {
+  text-decoration: none;
+  color: #7a7a7a;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 521, ../content lenovo/pet project/content/sass/_main.scss */
+.footer__section ul li a:hover {
+  color: #eb592d;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+/* line 531, ../content lenovo/pet project/content/sass/_main.scss */
+.footer__sect-4 img {
+  margin-bottom: 35px;
+}
+
+/* line 534, ../content lenovo/pet project/content/sass/_main.scss */
+.footer__sect-4 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7a7a7a;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 542, ../content lenovo/pet project/content/sass/_main.scss */
+.ic-social-footer {
+  margin-top: 26px;
+}
+
+/* line 545, ../content lenovo/pet project/content/sass/_main.scss */
+.ic-footer {
+  margin-left: 0;
+}
+
+/* line 549, ../content lenovo/pet project/content/sass/_main.scss */
+.copyright p {
+  color: #7a7b7c;
+  border-top: 1px solid #7a7b7c45;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+/* line 555, ../content lenovo/pet project/content/sass/_main.scss */
+.copyright a {
+  text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 560, ../content lenovo/pet project/content/sass/_main.scss */
+  .ic {
+    margin: auto !important;
+  }
+  /* line 563, ../content lenovo/pet project/content/sass/_main.scss */
+  .fb-icon {
+    margin-left: 0;
+  }
+  /* line 567, ../content lenovo/pet project/content/sass/_main.scss */
+  .testimonial__description p {
+    line-height: 28px;
+    font-size: 14px;
+  }
+  /* line 572, ../content lenovo/pet project/content/sass/_main.scss */
+  .testimonial__single {
+    width: 100%;
+  }
+  /* line 575, ../content lenovo/pet project/content/sass/_main.scss */
+  .contact {
+    background-size: cover;
+    padding: 110px 0;
+  }
+  /* line 580, ../content lenovo/pet project/content/sass/_main.scss */
+  .contact__content p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 22px;
+  }
+  /* line 585, ../content lenovo/pet project/content/sass/_main.scss */
+  .contact__content h3 {
+    font-size: 38px;
+    text-align: center;
+  }
+  /* line 591, ../content lenovo/pet project/content/sass/_main.scss */
+  .nav2 ul {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background: white;
+    top: 100%;
+    right: 0;
+    width: 100%;
+  }
+  /* line 599, ../content lenovo/pet project/content/sass/_main.scss */
+  .nav2 ul li {
+    padding: 20px 16px;
+  }
+  /* line 604, ../content lenovo/pet project/content/sass/_main.scss */
+  .mobile-nav {
+    display: block !important;
+  }
+  /* line 607, ../content lenovo/pet project/content/sass/_main.scss */
+  .nav22 {
+    width: 90% !important;
+    justify-content: space-between;
+    padding: 15px 0;
+  }
+  /* line 612, ../content lenovo/pet project/content/sass/_main.scss */
+  .team__img {
+    margin: 5rem 0 0 0;
+  }
+  /* line 614, ../content lenovo/pet project/content/sass/_main.scss */
+  .team__img img {
+    max-width: 100%;
+  }
+  /* line 619, ../content lenovo/pet project/content/sass/_main.scss */
+  .dropdown ul {
+    position: relative;
+    width: 100% !important;
+  }
+  /* line 625, ../content lenovo/pet project/content/sass/_main.scss */
+  .nav1 li {
+    font-size: 12px;
+  }
+  /* line 629, ../content lenovo/pet project/content/sass/_main.scss */
+  .head__description__para__first {
+    font-size: 30px !important;
+  }
+  /* line 632, ../content lenovo/pet project/content/sass/_main.scss */
+  .head__description__para__last {
+    font-size: 13px;
+  }
+  /* line 635, ../content lenovo/pet project/content/sass/_main.scss */
+  .head__description a, .contact__button button {
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+}
+
+/* line 640, ../content lenovo/pet project/content/sass/_main.scss */
+.team__img img {
+  max-width: 100%;
+}
+
+/* line 643, ../content lenovo/pet project/content/sass/_main.scss */
+.mob {
+  width: 15px;
+  height: 2px;
+  background: black;
+  display: block;
+  margin-top: 5px;
+}
+
+/* line 649, ../content lenovo/pet project/content/sass/_main.scss */
+.mob:first-child {
+  margin-top: 0;
+}
+
+/* line 653, ../content lenovo/pet project/content/sass/_main.scss */
+.mobile-nav {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+  display: none;
+}
+
+/* line 660, ../content lenovo/pet project/content/sass/_main.scss */
+.navmenu-block {
+  display: block !important;
+}
+
+@media (min-width: 768px) and (max-width: 824px) {
+  /* line 665, ../content lenovo/pet project/content/sass/_main.scss */
+  .nav2 li {
+    padding: 35px 10px;
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=ltr.css.map */
